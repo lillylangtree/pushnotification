@@ -11,21 +11,6 @@
     <author email="sean@nmm.ie" href="http://nmm.ie">
         Apache Cordova Team
     </author>
-    <content src="index.html" />
-    <plugin name="cordova-plugin-whitelist" version="1" />
-    <access origin="*" />
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
-    <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
-    <platform name="android">
-        <allow-intent href="market:*" />
-    </platform>
-    <platform name="ios">
-        <allow-intent href="itms:*" />
-        <allow-intent href="itms-apps:*" />
-    </platform>
-	<gap:plugin name="com.phonegap.plugins.pushplugin" />
+    
+	<gap:plugin name="com.clone.phonegap.plugins.pushplugin" />
 </widget>
