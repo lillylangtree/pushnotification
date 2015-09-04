@@ -94,7 +94,7 @@ var app = {
 			var c = document.querySelector('.channel');
 			c.innerHTML = 'Your Device ID: <strong>' + channel + '</strong>';
 			c.classList.remove('blink'); 
-		 
+		 /*
 			pubnub.publish({
 				channel: channel,
 				message: {
@@ -111,7 +111,7 @@ var app = {
 						t.textContent = m.setting + '°';
 					}
 				}
-			});  
+			});  */
 		}
 			
 	},

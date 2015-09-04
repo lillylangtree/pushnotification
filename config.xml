@@ -12,5 +12,5 @@
         Apache Cordova Team
     </author>
     
-	<gap:plugin name="com.clone.phonegap.plugins.pushplugin" />
+	<gap:plugin name="com.phonegap.plugins.pushplugin" />
 </widget>
