@@ -66,6 +66,7 @@ var app = {
 			switch(e.event){
 				case 'registered':
 					if (e.regid.length > 0){
+					    alert(e.regid);
 						deviceRegistered(e.regid);
 					}
 				break;
